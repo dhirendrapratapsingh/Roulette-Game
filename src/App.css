@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-image: url('assets/background1.jpg') !important;
+  margin: auto;
+  height: 100%;
+  padding: 10px;
+  background-color: #f7f6f3;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: 1rem;
+}
+
+#spinbutton{
+  margin: auto;
+  margin-top: -200px;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: rgb(255, 221, 161);
+  border: 4px solid rgb(221, 187, 129);
+
+}
+.bhdLno{
+  /* this is custom class automatically generated ny custom Roulette */
+  margin: auto !important;
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.card{
+  background-color: rgb(249 245 225);
+  border-radius: 15px;
+  margin-top: 150px;
+}
+.button{
+  display: inline-block;
+  text-align: center;
+  width: 78px;
+  color: white;
+  background: #65203a;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 0 10px;
+}
+
+.left{
+  position: absolute;
+  top: 15px;
+  left: 5%;
+}
+.right{
+  position: absolute;
+  top: 15px;
+  right: 5%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.swal-overlay--show-modal .swal-modal{
+  opacity: 0.9;
+}
