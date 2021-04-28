@@ -76,6 +76,10 @@
               range: 'Sheet1',  
           };
 
+          if (!gapi.client.sheets) {
+            return;
+          }
+
           var request = gapi.client.sheets.spreadsheets.values.append(params, data);
           request.then(function(response) {
             

@@ -1,13 +1,6 @@
-### `Dependencies/Libraries used `
-
-[React JS(UI)](https://reactjs.org/docs/getting-started.html),
-[axios( http API Calls)](https://www.npmjs.com/package/axios),
-[npm](https://www.npmjs.com/)
-
-
 ### `Steps to create Project & add all dependencies in Ubntu18.04>`
 
-`shortcut way is just download whole project install npm >go inside project directory > npm start`
+shortcut way is just download whole project install npm >go inside project directory > npm start
 
 `Install nodejs npm npx` <br>
 sudo apt update<br>
@@ -22,7 +15,7 @@ npm start<br>
 Then open http://localhost:3000/ to see your app.<br>
 stop ctrl+c to add dependencies
 
-`Libraries & framework` <br>
+`Installing Libraries & framework` <br>
 
 npm install axios<br>
 npm install sweetalert --save <br>
@@ -38,18 +31,19 @@ Your app is ready to be deployed!
 
 ### Provided resources
 
--Problem Statement https://www.notion.so/Round-1-Frontend-Engineer-Assignment-FamPay-9f432c502ab64b909d9f5484406a2d90
--Sheet link   https://docs.google.com/spreadsheets/d/1AlswlDtP6DQDDuVwAfgKdG0fxfIVSOpCKi_ZzmOP3_U/edit#gid=0
+- Problem Statement https://www.notion.so/Round-1-Frontend-Engineer-Assignment-FamPay-9f432c502ab64b909d9f5484406a2d90
+- Sheet link   https://docs.google.com/spreadsheets/d/1AlswlDtP6DQDDuVwAfgKdG0fxfIVSOpCKi_ZzmOP3_U/edit#gid=0
 
-### Used resources
+### `Libraries & Resources used `
+
+[React JS(UI)](https://reactjs.org/docs/getting-started.html),<br>
+[axios](https://www.npmjs.com/package/axios): To handle API calls<br>
+[sweetAlert](https://sweetalert.js.org/guides/), -Notify the user about pize won<br>
+[npm](https://www.npmjs.com/): Package manager<br>
+
 
 I used a Customizable React roulette wheel plugin with spinning animation from here
 https://www.npmjs.com/package/react-custom-roulette#wheeldata
-
-Notify the user about pize won
-https://sweetalert.js.org/guides/
-
-
 
 
 ### Steps of API Initegration
@@ -82,16 +76,26 @@ I learned about the syntax and methods to use this API from here
 
 ### Items not implemented and reason
 
-This is custom create roulette crated in Canvas which is vey complicated to rotate even if one is able to implent eh drag functionality 
-to raise power of rotation. The Increasing speed to of Roation is another complicated thing.
+This is custom create roulette crated in Canvas which is vey complicated to rotate even if one is able to implent the drag functionality to raise power of rotation. The Increasing speed to of Roation is another complicated thing.
 Its very difficult for experience professionals to take out time and Develop such mini projects. 
-Since I took it as an Opportunity to learn Google Sheets API and Roulette, I spent 2 nights & 1 day on this 
+Since I took it as an Opportunity to learn Google Sheets API and Roulette, I spent 2 nights & 1 day on this.
 
 
-### extra Items implemented
+### Extra Items implemented
 
 - Sign In and Sign-out buttons are added and should be present to ensure there s no misuse of API only authorized person can do that
 - Adde a sweet ttractive alert to give the player What prize he won
+
+### Screeshots
+
+
+<img width="959" alt="Roulettegame" src="https://user-images.githubusercontent.com/32532380/116330680-a4dc8280-a7eb-11eb-9727-76c35f7a0b20.png">
+
+<img width="578" alt="swwetalert" src="https://user-images.githubusercontent.com/32532380/116330706-b32a9e80-a7eb-11eb-860f-42dfa01eb371.png">
+
+<img width="733" alt="Mobileview" src="https://user-images.githubusercontent.com/32532380/116330714-b887e900-a7eb-11eb-9661-7c755bf775c9.png">
+
+<img width="949" alt="roulettegameDesktop" src="https://user-images.githubusercontent.com/32532380/116330722-c0e02400-a7eb-11eb-9f7d-7c434cd9c6b2.png">
 
 
 # Getting Started with Create React App
